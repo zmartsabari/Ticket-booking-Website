@@ -1,0 +1,164 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <title>Contact Us</title>
+          <style>
+           
+            body {
+              font-family: cursive;
+              font-weight: bolder;
+              margin: 0%;
+              padding: 0px;
+              background-repeat: no-repeat;
+              background-size:100% 100%;
+              background-image: url("../Images/blue_sunset-1366x768.jpg");
+              /* background-color: rgb(2, 206, 189); */
+            }
+
+            h2{
+                text-align: center;
+                color: gold;
+            }
+            input[type="text"],
+            input[type="email"],
+            input[type="number"],
+            input[type="message"],
+            textarea {
+              width: 100%;
+              padding: 10px;
+              /* background-color: rgb(170, 255, 255); */
+              backdrop-filter: blur(10px);
+              margin-bottom: 10px;
+              border-radius: 5px;
+              font-weight: bolder;
+              
+            }
+            #a {
+              background-color: #ffffff;
+              color: rgb(103, 4, 65);
+              border: none;
+              text-decoration: none;
+              padding: 10px 20px;
+              margin-left: 43%;
+              border-radius: 5px;
+              
+              cursor: pointer;
+              border: 2px solid rgb(103, 4, 65);
+            }
+
+            #a:hover{
+              background-color: rgb(103, 4, 65);
+              color: rgb(255, 255, 255);
+              padding: 10px 20px;
+              border-radius: 5px;
+              cursor: pointer;
+            }
+            input[type="submit"]:hover {
+              background-color: #0056b3;
+            }
+
+            #form{
+              background-image:linear-gradient(skyblue,white,skyblue);
+                border: 2px solid black;
+                padding: 30px;
+                color: rgb(103, 4, 65);
+                margin: 0 auto;
+                width: 40%;
+                border-radius: 30px;
+                justify-content: center;
+                justify-items: center;
+                
+            }
+
+            .top{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                align-content: center;
+                width: 100%;
+                background-color:#0c3d60;
+                color: gold;
+                filter: drop-shadow(7px 5px 0.75px black);
+            }
+
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            a:hover{
+                color: chocolate;
+            }
+
+            .bot,ul,li{
+                display: flex;
+                flex-direction: row;
+                width: 50%;
+                padding-left: 70px;
+                justify-content: space-evenly;
+            }
+
+            #bus{
+              border: 10px solid black;
+              clip-path: circle(35%);
+            }
+
+            .mid{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            
+            footer{
+              background-color:#0c3d60;
+              text-align: center;
+              padding: 4px;
+              color: white;
+            }
+          </style>
+        </head>
+        <body>
+          <div class="top">
+            <div class="mid">
+                <img src="../images/bus.jpg" alt="" height="100px" width="100px" id="bus">
+                <h1>&nbsp;Travel&nbsp;Booking&nbsp;Website</h1>
+            </div>
+            <div class="bot">
+                <ul>
+                    <li><a href="index (2).html">Home</a></li>
+                    <li><a href="pro_about.html">About</a></li>
+                    <li><a href="con_pro.html">Details</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="img.html">Images</a></li>
+                </ul>
+            </div>
+        </div>
+          <br><br><br><br>
+          <form >
+            <h2>User Details</h2>
+            <div id="form">
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone-no :</label>
+            <input type="number" id="phone" name="phone" required>
+
+            <label for="subject">Subject :</label>
+            <input type="text" id="subject" name="subject" required>
+        
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        
+            <a href="index (2).html" id="a">Submit</a>
+            </div>
+          </form>
+          <br><br>
+          <footer>
+            <p>&copy; 2023 SK  Company. All rights reserved.</p>
+        </footer>
+        
+        </body>
+        </html>

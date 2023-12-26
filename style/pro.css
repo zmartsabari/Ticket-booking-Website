@@ -1,0 +1,114 @@
+body {
+        font-family: cursive;
+        margin: 0;
+        padding: 0;
+    }
+
+    .booking{
+        background-image:url("../Images/Stunning\ Car\ Photos\ by\ Rudolf\ van\ der\ Ven\ _\ Inspiration\ Grid.jfif");
+        opacity: 0.9;
+        z-index: -1;
+        background-repeat: no-repeat;
+        background-size:100%;
+    }
+    .top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        background-color:#0c3d60;
+        color: gold;
+        filter: drop-shadow(7px 5px 0.75px black);
+    }
+
+    .header img{
+        height: 100px;
+        width: 100px;
+        clip-path: circle(35%);
+        filter: drop-shadow(0 0 0.75px rgb(0, 0, 0));  
+    }
+   
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header2,ul,li{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        font-family: cursive;
+        font-weight: bolder;
+        padding-left: 70px;
+        justify-content: space-evenly;
+   }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: chocolate;
+    }
+        
+    .booking-form {
+        padding: 50px;
+    }
+    
+    h2 {
+        text-align:center;
+        font-weight: bolder;
+        color: gold;
+        filter: drop-shadow(4px 5px 1px black);
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 10px;
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+
+    }
+    
+    input[type="text"],
+    input[type="date"],
+    input[type="time"],
+    input[type="number"]
+    {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        background: transparent;
+        border-bottom: 2px solid rgb(0, 0, 0);
+    }
+    
+    #btn {
+        background-color:#39132c ;
+        border-radius: 20px;
+        width: 200px;
+        padding: 10px;
+        margin-left: 600px;
+        color: #ffffff;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-style: oblique;
+    }
+    #btn:hover{
+        background:#630014;
+        color: rgb(255, 255, 255);
+        transition: .3s;
+    }
+
+    footer {
+        background-color:#0c3d60;
+        color: #fff;
+        padding: 5px;
+        text-align: center;
+    }

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>images for vehicles</title>
+    <style>
+        body{
+            background-image: linear-gradient(rgb(27, 182, 243),rgb(179, 241, 242),skyblue,rgb(192, 239, 247),skyblue,rgb(179, 241, 242),skyblue);
+            background-repeat: no-repeat;
+            background-size:100% 100%;
+            font-family: cursive;
+            margin: 0;
+            padding: 0;
+        }
+
+        #nav{
+            padding-bottom: 20px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            filter: drop-shadow(5px 5px 0.75px black);
+            text-align: center;
+            font-weight: bolder;font-family: sans-serif;
+
+        }
+
+        #h1{
+            text-align: center;
+            color: rgb(255, 255, 16);
+            font-size: xx-large;
+            filter: drop-shadow(1px 2px 10px rgb(0, 0, 0) );
+        }
+
+        h2{
+            color:#f7af74;
+            font-size: x-large;
+            filter: drop-shadow(1px 2px 2px rgb(0, 0, 0) );
+        }
+
+        img{
+            border: 5px solid rgb(255, 255, 255);
+            justify-content:space-evenly;
+            border-radius: 10px;
+        }
+
+        img:hover{
+            border-radius: 20px;
+            border: 5px solid  rgb(225, 255, 58) ;
+            filter: contrast(1.75);
+            filter: drop-shadow(6px 7px 1px #e0ff43);
+        }
+        
+        .top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        background-color:#0c3d60;
+        color: rgb(255, 220, 19);
+        filter: drop-shadow(7px 5px 0.75px black);
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    a:hover{
+        color: chocolate;
+    }
+
+    .bot,ul,li{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        font-family: cursive;
+        font-weight: bolder;
+        padding-left: 70px;
+        justify-content: space-evenly;
+   }
+   ul,li,a:active{
+        color: chocolate;
+   }
+
+   #bus{
+        border: 10px solid black;
+        clip-path: circle(35%);
+    }
+
+    .mid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="mid">
+            <img src="../images/bus.jpg" alt="" height="100px" width="100px" id="bus">
+            <h1>&nbsp;Travel&nbsp;Booking&nbsp;Website</h1>
+        </div>
+        <div class="bot">
+            <ul>
+                <li><a href="index (2).html">Home</a></li>
+                <li><a href="pro_about.html">About</a></li>
+                <li><a href="con_pro.html">Details</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="img.html">Images</a></li>
+            </ul>
+        </div>
+    </div>
+    <h1 id="h1">The vehicles</h1>
+    <div id="nav">
+        <div id="one">
+            <h2>Bus</h2>
+            <img src="../images/1.jpg" alt="" height="200px" width="200px">
+            <img src="../images/2.jpg" alt="" height="200px" width="200px">
+            <img src="../images/3.jpg" alt="" height="200px" width="200px">
+            <img src="../images/4.jpg" alt="" height="200px" width="200px">
+        </div>
+        <div id="two">
+            <h2>Train</h2>
+            <img src="../images/5.jpg" alt="" height="200px" width="200px">
+        <img src="../images/6.jpg" alt="" height="200px" width="200px">
+        <img src="../images/7.jpg" alt="" height="200px" width="200px">
+        <img src="../images/8.jpg" alt="" height="200px" width="200px">
+        </div>
+        <div id="three">
+            <h2>Car</h2>
+            <img src="../images/9.jpg" alt="" height="200px" width="200px">
+        <img src="../images/10.jpg" alt="" height="200px" width="200px">
+        <img src="../images/11.jpg" alt="" height="200px" width="200px">
+        <img src="../images/12.jpg" alt="" height="200px" width="200px">
+        </div>
+       <div id="four">
+        <h2>Airoplane</h2>
+        <img src="../images/13.jpg" alt="" height="200px" width="200px">
+        <img src="../images/14.jpg" alt="" height="200px" width="200px">
+        <img src="../images/15.jpg" alt="" height="200px" width="200px">
+        <img src="../images/16.jpg" alt="" height="200px" width="200px">
+       </div>
+       <div id="five">
+        <h2>Ship</h2>
+        <img src="../images/17.jpg" alt="" height="200px" width="200px">
+        <img src="../images/18.jpg" alt="" height="200px" width="200px">
+        <img src="../images/19.jpg" alt="" height="200px" width="200px">
+        <img src="../images/20.jpg" alt="" height="200px" width="200px">
+       </div>
+    </div>
+</body>
+</html>
